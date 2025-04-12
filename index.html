@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">John Doe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold">Hi, I'm Salman Haider</h1>
+                    <h2 class="text-primary mb-4">Full Stack Developer</h2>
+                    <p class="lead mb-4">I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#contact" class="btn btn-primary btn-lg px-4">Hire Me</a>
+                        <a href="#" class="btn btn-outline-light btn-lg px-4">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-img">
+                        <img src="https://via.placeholder.com/500x500" alt="John Doe" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>About Me</h2>
+                <p class="lead">Get to know me better</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="mb-4">Who am I?</h3>
+                    <p>I'm a passionate Full Stack Developer with over 5 years of experience creating web applications. I specialize in JavaScript technologies across the whole stack (React.js, Node.js, Express.js, MongoDB).</p>
+                    <p>My approach combines technical expertise with a keen eye for design, ensuring that the applications I build are not only functional but also provide an exceptional user experience.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><strong>Name:</strong> Sayyed Salman Haider</li>
+                                <li class="mb-2"><strong>Email:</strong> sayedaliraza05@gmail.com</li>
+                                <li class="mb-2"><strong>Phone:</strong>9167975940</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><strong>From:</strong> Kurla, Mumbai</li>
+                                <li class="mb-2"><strong>Freelance:</strong> Available</li>
+                                <li class="mb-2"><strong>Experience:</strong> 5+ Years</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Node.js</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>My Services</h2>
+                <p class="lead">What I offer to my clients</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Custom website development from scratch using modern technologies and frameworks.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Creating websites that look and function perfectly on all devices and screen sizes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing intuitive user interfaces that provide exceptional user experiences.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO Optimization</h3>
+                        <p>Improving your website's visibility on search engines to attract more visitors.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>Building robust server-side applications and APIs to power your web applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="icon-box">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Support & Maintenance</h3>
+                        <p>Ongoing support and maintenance to keep your website running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>My Portfolio</h2>
+                <p class="lead">Some of my recent works</p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio-filter text-center mb-4">
+                        <button class="btn btn-filter active" data-filter="all">All</button>
+                        <button class="btn btn-filter" data-filter="web">Web Design</button>
+                        <button class="btn btn-filter" data-filter="app">App Development</button>
+                        <button class="btn btn-filter" data-filter="graphic">Graphic Design</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>E-commerce Website</h4>
+                                <p>Web Design</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item app" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Mobile App UI</h4>
+                                <p>App Development</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item graphic" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Brand Identity</h4>
+                                <p>Graphic Design</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Corporate Website</h4>
+                                <p>Web Design</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item app" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 5">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Fitness App</h4>
+                                <p>App Development</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item graphic" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-card">
+                        <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Project 6">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h4>Marketing Materials</h4>
+                                <p>Graphic Design</p>
+                                <a href="#" class="btn btn-sm btn-light">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Client Testimonials</h2>
+                <p class="lead">What my clients say about me</p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-item text-center">
+                            <div class="testimonial-img">
+                                <img src="https://via.placeholder.com/100x100" class="rounded-circle" alt="Client 1">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="lead">"John delivered an outstanding website for our company. His attention to detail and technical expertise were impressive. Highly recommended!"</p>
+                                <h5>Sarah Johnson</h5>
+                                <span>CEO, TechSolutions</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="testimonial-img">
+                                <img src="https://via.placeholder.com/100x100" class="rounded-circle" alt="Client 2">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="lead">"Working with John was a pleasure. He understood our requirements perfectly and delivered the project ahead of schedule."</p>
+                                <h5>Michael Brown</h5>
+                                <span>Marketing Director, BrandUp</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="testimonial-img">
+                                <img src="https://via.placeholder.com/100x100" class="rounded-circle" alt="Client 3">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="lead">"The mobile app John developed for us exceeded our expectations. His technical skills and creative approach were invaluable."</p>
+                                <h5>Emily Davis</h5>
+                                <span>Product Manager, AppVenture</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Latest Blog Posts</h2>
+                <p class="lead">Sharing my thoughts and knowledge</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Blog Post 1">
+                            <div class="blog-date">15 June 2023</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">The Future of Web Development in 2023</a></h3>
+                            <p>Exploring the latest trends and technologies that will shape web development this year.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Blog Post 2">
+                            <div class="blog-date">10 May 2023</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">React Hooks: A Comprehensive Guide</a></h3>
+                            <p>Understanding React Hooks and how they can simplify your functional components.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://via.placeholder.com/400x250" class="img-fluid" alt="Blog Post 3">
+                            <div class="blog-date">22 April 2023</div>
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Optimizing Website Performance</a></h3>
+                            <p>Practical tips and techniques to make your website load faster and perform better.</p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Get In Touch</h2>
+                <p class="lead">Feel free to contact me anytime</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Location</h4>
+                                <p>123 Street, New York, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Email</h4>
+                                <p>john@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Phone</h4>
+                                <p>+1 234 567 890</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links mt-4">
+                        <h4>Follow Me</h4>
+                        <div class="d-flex gap-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 John Doe. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by John Doe</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Slick Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
